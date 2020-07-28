@@ -2,5 +2,5 @@ name: 'Simulate'
 description: 'Runs ROS code'
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: docker
+  image: raceon/ros1-gazebo-sim:latest
